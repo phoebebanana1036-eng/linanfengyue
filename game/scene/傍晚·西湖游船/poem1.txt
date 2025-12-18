@@ -1,0 +1,15 @@
+
+changeBg:西湖.png;
+miniAvatar:zhukong.PNG;
+林安:水光潋滟晴方好，山色空蒙雨亦奇——这般景致，配茶正好！不知这茶社的龙井，是不是新采的？;
+setVar:ach_05_learned=1;
+miniAvatar:none;
+changeFigure:渔夫.png -left;
+:邻船的渔翁听了，笑着鼓掌;
+渔翁:小郎君好文采！若去茶社，定给您添壶好茶，画片您可以自己选，有断桥、雷峰塔好几样呢！;
+changeFigure: -left;
+miniAvatar:微笑.png;
+:你抿嘴轻笑，原来除了题字，把诗词嵌进吆喝、刻在标牌上，也是招揽生意的妙法。 ;
+miniAvatar:none;
+unlockCg:;
+changeScene:夜晚·夜色酒楼/酒楼.txt;

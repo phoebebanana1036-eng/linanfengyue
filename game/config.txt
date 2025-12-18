@@ -1,0 +1,5 @@
+Game_name:广告史;
+Game_key:7e24d53297c34fc;
+Title_img:开屏.png;
+Title_bgm:ouun.mp3;
+Textbox_theme:imss;

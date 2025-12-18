@@ -1,0 +1,23 @@
+;转晨市
+intro:清晨·临安晨市 -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+changeBg:布庄外景.png;
+:【旗帜广告】薄雾里，“胡记布庄” 的幡旗在风里轻轻晃着，蓝底白字的 “胡记” 二字时隐时现。;
+changeBg:旗帜科普.jpg -unlockname=旗帜广告;
+unlockCg:旗帜科普.jpg;
+changeBg:布庄外景.png;
+:街边商贩正手忙脚乱地摆货，“吱呀” 的开门声混着幡旗飘动的簌簌声。;
+:你驻足望着，脚下不自觉迈进了布庄。;
+changeBg:布庄内景.png;
+:刚一进门，目光便被货架上一匹绣着缠枝莲纹的粉色细布吸引，伸手就要去摸，掌柜笑着迎上来。;
+changeFigure:布庄.png;
+掌柜的:这位小郎君看着面生，莫不是要给心上人挑布做新衣？这粉布配玉色滚边，姑娘家穿最是娇俏。;
+changeFigure:none;
+miniAvatar:慌张.png;
+:你指尖一顿，才猛然想起自己此刻穿着男装，脸颊瞬间发烫，慌忙收回手摆了摆;
+林安:不是、不是！我是给自己选的！;
+miniAvatar:none;
+changeFigure:布庄.png;
+:掌柜见你窘迫模样，也不戳破，笑着引你到另一侧货架。;
+掌柜的:咱店里新到了两批好料，一批素色麻布，耐穿又透气；一批暗纹丝绸，看着雅致，中秋穿正合适，您瞧瞧喜欢哪种？;
+choose:素色麻布:清晨·临安晨市/cloth_scene.txt|暗纹丝绸:清晨·临安晨市/silk_scene.txt|什么也不买，转身离开:清晨·临安晨市/leave_scene.txt;
+playEffect:选择效果音文件;

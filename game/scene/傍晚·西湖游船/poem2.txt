@@ -1,0 +1,15 @@
+
+changeBg:西湖.png;
+miniAvatar:zhukong.PNG;
+林安:毕竟西湖六月中，风光不与四时同——虽非六月，却也别有韵味，茶想必更妙！老板的小画片，是画的断桥吗？;
+miniAvatar:none;
+setVar:ach_06_yangwanli=1;
+changeFigure:渔夫.png -left;
+:邻船的渔翁听了，笑着鼓掌;
+渔翁:小郎君好文采！若去茶社，定给您添壶好茶，画片您可以自己选，有断桥、雷峰塔好几样呢！;
+changeFigure: -left;
+miniAvatar:微笑.png;
+:你抿嘴轻笑，原来除了题字，把诗词嵌进吆喝、刻在标牌上，也是招揽生意的妙法。;
+miniAvatar:none;
+unlockCg:;
+changeScene:夜晚·夜色酒楼/酒楼.txt;

@@ -1,0 +1,6 @@
+
+changeBg:布庄内景.png;
+miniAvatar:zhukong.PNG;
+林安:不了，我就随便看看;
+miniAvatar:none;
+changeScene:上午·茶楼门前/茶楼.txt;

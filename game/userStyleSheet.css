@@ -1,0 +1,26 @@
+/* 自定义对话框UI */
+.webgal-dialog-box {
+    background-image: url('111.png') !important;
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat !important;
+    background-color: transparent !important;
+    min-height: 150px !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* 调整文字位置 */
+.text_area {
+    padding: 50px 40px 60px 40px !important;
+    color: #000000 !important;
+    min-height: 100px !important;
+    background: transparent !important;
+}
+
+/* 对话文字样式 */
+.text {
+    color: #000000 !important;
+    font-size: 18px !important;
+    text-shadow: 1px 1px 2px white !important;
+    background: transparent !important;
+}

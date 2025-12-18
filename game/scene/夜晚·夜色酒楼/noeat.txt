@@ -1,0 +1,8 @@
+
+changeBg:酒楼内景.png;
+miniAvatar:zhukong.PNG;
+林安:我不饿，就来这里坐坐。;
+miniAvatar:none;
+:你望着楼里的灯笼，听着歌女的曲声，只觉得这一日的疲惫都消散了大半。;
+unlockCg:;
+changeScene:结束.txt;

@@ -1,0 +1,16 @@
+
+intro:上午·茶楼门前 -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+changeBg:茶楼外景.png;
+:【口头广告】行至“逸香茶楼”前，一阵清亮的吆喝骤然撞进耳中;
+changeFigure:茶楼.png;
+茶楼小二:客官里边请！新采的天目山茶、建溪北苑茶，泡得正香嘞！配着刚蒸好的桂花糕，甜而不腻！;
+:茶楼小二满面笑意，嗓音透过柔暖的晨光传遍街巷。;
+changeFigure:none;
+changeBg:声响广告.png -unlockname=声响广告;
+unlockCg:声响广告.png;
+changeBg:茶楼外景.png;
+:【招牌广告】你假装路过，眼角瞥见茶楼门楣挂着块小木牌，“新茶上市”四字刻得明明白白。;
+changeBg:招牌广告.png -unlockname=招牌广告;
+unlockCg:招牌广告.png;
+changeBg:茶楼外景.png;
+choose:进去看看:上午·茶楼门前/go.txt|我还是离开吧:上午·茶楼门前/no.txt;

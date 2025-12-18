@@ -1,0 +1,21 @@
+intro:夜色渐深 -fontSize=medium -backgroundColor=rgba(0,0,0,1) -fontColor=rgba(255,255,255,1) -animation=fadeIn -delayTime=1500;
+changeBg:知府后巷.png;
+:夜色渐深，你借着灯笼微光溜回知府府外，轻手轻脚翻进后巷。卸去幞头、换回糯裙时，指尖还留着墨香与茶香。;
+changeBg:最后.png;
+:你铺开宣纸，悄悄写下"幡旗引客、诗茶招宾"八字，又画了个小小的灯笼模样——这一日临安见闻，成了深宅里最鲜活的秘密。;
+
+;========== 成就最终判定 ==========
+setVar:ach_01_pinching=1 -when=ach_purchase_count==0;
+setVar:ach_02_frugal=1 -when=ach_purchase_count==2;
+setVar:ach_03_rich=1 -when=ach_purchase_count>=3;
+;========== 判定结束 ==========
+
+恭喜解锁成就------
+:【成就】一毛不拔的铁公鸡|[万花丛中过，片叶不沾身，全临安城的诱惑都无法撼动你对荷包的守护。] -when=ach_01_pinching==1;
+:【成就】该省省该花花|[钱就要花在刀刃上！] -when=ach_02_frugal==1;
+:【成就】想买就买，有的是钱！|[难得潇洒，不能委屈了自己!] -when=ach_03_rich==1;
+:【成就】或许你味觉失灵了？|[谁说这西湖醋鱼难吃，这西湖醋鱼可太好吃了。异食癖歧视禁止！] -when=ach_04_tasteless==1;
+:【成就】博学多才！|[我背出了《饮湖上初晴后雨》，打败80%的临安人，你也来试试吧~] -when=ach_05_learned==1;
+:【成就】莫非你是杨万里本人？|[你是杨万里的证据：第一，你们都是临安人] -when=ach_06_yangwanli==1;
+:[第二，你们都会吟《晓出净慈寺送林子方》；第三，你们从未同时出现过。];
+bgm:none;

@@ -1,0 +1,6 @@
+
+changeBg:书坊外景.png;
+miniAvatar:zhukong.PNG;
+林安:谢谢你掌柜的，但是我不爱看书。;
+miniAvatar:none;
+changeScene:傍晚·西湖游船/游船.txt;

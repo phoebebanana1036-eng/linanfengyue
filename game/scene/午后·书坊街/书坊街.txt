@@ -1,0 +1,15 @@
+
+intro:午后·书坊街 -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+changeBg:书坊外景.png;
+:【招贴广告】日头西斜，暖融融的阳光斜照在“文渊书坊”的门板上。;
+:书坊门口贴了张半旧的纸，上头用墨笔写着“新刊《西厢记》，字迹清晰，每册百钱”，;
+:下方还歪歪扭扭画了个崔莺莺的简笔小像，手指轻轻拂过纸上的字迹。;
+changeBg:招贴科普.png -unlockname=招贴科普;
+unlockCg:招贴科普.png;
+changeBg:书坊外景.png;
+changeFigure:书坊.png;
+:正看得入神，书坊掌柜笑着搭话;
+书坊掌柜:小郎君也爱这类册子？这新刊《西厢记》销路可好哩！刚还有位书生一下子买了两册，说要送一册给同窗。;
+书坊掌柜:咱店里还有新到的《江湖志》，封皮印着侠客图，里头讲的都是江湖故事，年轻人都爱瞧。小郎君想找哪类书？;
+changeFigure:none;
+choose:江湖志:午后·书坊街/book1.txt|西厢记:午后·书坊街/book2.txt|转身离开:午后·书坊街/nobook.txt;

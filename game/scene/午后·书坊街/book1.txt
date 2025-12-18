@@ -1,0 +1,9 @@
+
+changeBg:书坊外景.png;
+miniAvatar:zhukong.PNG;
+林安:掌柜，我想看看那本《江湖志》，听着就有趣。;
+miniAvatar:none;
+:你付了钱，攥着书走出书坊，才发觉书坊靠热销榜单“勾”人兴趣，用到货告示通知熟客，倒是比单纯吆喝机灵多了。;
+setVar:ach_purchase_count=ach_purchase_count+1;
+unlockCg:;
+changeScene:傍晚·西湖游船/游船.txt;

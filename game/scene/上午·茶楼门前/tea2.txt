@@ -1,0 +1,11 @@
+
+changeBg:茶楼内景.png;
+miniAvatar:zhukong.PNG;
+林安:我听闻建溪北苑茶名气大，便选这个吧，茶点随便上一份就好。;
+miniAvatar:none;
+:小二很快端来茶具，热水注入盖碗，茶叶在水中舒展，一股清冽的香气瞬间散开。;
+:不多时，一盘热气腾腾的桂花糕也端上了桌，米糕上撒着细碎的桂花，咬一口软糯香甜，混着茶水的清香，恰好解了甜腻。;
+setVar:ach_purchase_count=ach_purchase_count+1;
+:你边吃边听邻桌茶客闲谈，偶尔抬头望向楼下往来的行人，倒觉得这片刻的悠闲格外惬意。;
+unlockCg:;
+changeScene:午后·书坊街/书坊街.txt;

@@ -1,0 +1,10 @@
+
+changeBg:酒楼内景.png;
+miniAvatar:zhukong.PNG;
+:我不太能喝酒，就来份西湖醋鱼和一碗宋嫂鱼羹吧;
+setVar:ach_04_tasteless=1;
+miniAvatar:none;
+等餐时，你望着楼里的灯笼，听着歌女的曲声，只觉得这一日的疲惫都消散了大半。;
+setVar:ach_purchase_count=ach_purchase_count+1;
+unlockCg:;
+changeScene:结束.txt;
